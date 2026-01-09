@@ -38,7 +38,7 @@ This repository documents my daily learning and hands-on practice with Databrick
 
 ### 📝 Practice
 Basic PySpark DataFrame creation and filtering.  
-📂 Code: `Pyspark_practice.ipynb`
+📂 Code: `Days Learning/Day 1/Pyspark_practice.ipynb`
 
 ### 🔖 Tags
 #DatabricksWithIDC  
