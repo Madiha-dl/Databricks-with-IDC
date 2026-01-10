@@ -44,4 +44,56 @@ Basic PySpark DataFrame creation and filtering.
 #DatabricksWithIDC  
 @Databricks @Codebasics @Indiandataclub
 
+---
 
+## 📅 DAY 2 (10/01/26) – Apache Spark FUndamentals
+
+### 📘 Topics Learned
+
+- **Apache Spark Architecture** - Driver, Executors, Directed Acyclic Graph (DAG)
+- **DataFrames vs RDDs**
+- **Lazy Evaluation in Spark**
+- **Databricks Notebook Magic Commands**- %python, %sql, %f
+
+### 🛠️ Hands-on Tasks
+
+-Uploaded a sample e-commerce CSV dataset
+
+-Read data into a Spark DataFrame
+
+-Performed basic DataFrame operations - select, filter, groupBy, orderBy
+
+-Exported transformed results to storage
+
+### 🔑 Key Takeaways
+**Spark Architecture**
+
+-Driver coordinates execution and builds the logical execution plan
+
+-Executors perform distributed task execution and data processing
+
+-DAG represents the optimized execution flow of transformations
+
+**DataFrames vs RDDs**
+
+-DataFrames provide higher-level APIs and are Catalyst-optimized
+
+-RDDs offer low-level control but are less efficient
+
+-Best practice: Prefer DataFrames for most use cases
+
+**Lazy Evaluation**
+
+-Spark delays execution until an action is triggered
+
+-Improves performance through query optimization
+
+-Examples of actions: show(), count(), write()
+
+**Notebook Magic Commands**
+
+%python – Execute PySpark code
+
+%sql – Run Spark SQL queries
+
+%fs – Interact with Databricks File System (DBFS)
