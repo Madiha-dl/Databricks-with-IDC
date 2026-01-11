@@ -97,3 +97,9 @@ Basic PySpark DataFrame creation and filtering.
 %sql – Run Spark SQL queries
 
 %fs – Interact with Databricks File System (DBFS)
+
+
+### 📝 Practice
+Basic Operations
+📂 Code: `Days Learning/Day 2/Pyspark_practice.ipynb`
+
